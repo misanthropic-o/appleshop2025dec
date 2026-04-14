@@ -1,0 +1,59 @@
+button {
+	transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease, color 120ms ease;
+}
+
+button:active {
+	transform: translateY(1px) scale(0.98);
+}
+
+button:focus {
+	outline: 3px solid rgba(0,123,255,0.18);
+	outline-offset: 2px;
+}
+
+.clickable, a, button {
+	cursor: pointer;
+}
+
+:focus-visible {
+	outline: 3px solid rgba(0,123,255,0.28);
+	outline-offset: 2px;
+}
+
+.card, .product-card {
+	transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+.card:hover, .product-card:hover {
+	transform: translateY(-6px);
+	box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+button, input[type="button"], input[type="submit"], .shitovoz, .shitovoz-dark, .nav-main-content a, .nav-btns a, a.logo {
+	transition: transform 140ms ease, background 140ms ease, color 140ms ease, filter 140ms ease, opacity 140ms ease;
+}
+
+button:hover, .shitovoz:hover, .shitovoz-dark:hover, .nav-main-content a:hover, .nav-btns a:hover, a.logo:hover {
+	transform: translateY(-3px) scale(1.01);
+  filter: brightness(0.85);
+
+button:active, .shitovoz:active, .shitovoz-dark:active, .nav-main-content a:active, .nav-btns a:active {
+	transform: translateY(0) scale(0.995);
+	filter: brightness(0.92);
+}
+
+button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible {
+	outline: 3px solid rgba(0,123,255,0.24);
+	outline-offset: 2px;
+}
+
+input, textarea, select {
+  transition: box-shadow 140ms ease, outline 140ms ease;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: 2px solid rgba(0,123,255,0.4);
+  outline-offset: 8px;
+  border-radius: 10px;
+
+}}

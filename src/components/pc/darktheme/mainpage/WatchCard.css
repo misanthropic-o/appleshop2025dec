@@ -1,0 +1,46 @@
+.watch-card-dark {
+  width: 1140px;
+  height: 460px;
+  border-radius: 15px;
+  background: #353535;
+  background: linear-gradient(
+    40deg,
+    rgba(100, 80, 60, 0.5) 0%,
+    rgba(80, 80, 80, 0.5) 50%,
+    rgba(60, 60, 80, 0.5) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.watch-card-title-dark {
+  font-size: 5.75rem;
+  font-weight: 700;
+}
+
+.watch-card-txt-content-dark {
+  display: flex;
+  flex-direction: column;
+}
+
+.watch-card-txt-content-dark p:last-child {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 0.9;
+  letter-spacing: -0.05rem;
+  margin-top: -0.5rem;
+}
+
+.watch-card-content-dark {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding-left: 7rem;
+}
+
+.watch-card-dark img {
+  display: flex;
+  align-self: flex-end;
+}

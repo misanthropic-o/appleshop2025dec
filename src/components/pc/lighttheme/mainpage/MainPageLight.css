@@ -1,0 +1,33 @@
+.main-page-light {
+  width: 100%;
+  height: calc(177vh - 84px);
+  padding: 0.75rem 0.75rem;
+  background-color: white;
+}
+
+.main-page-grid-item-container {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "iphone iphone"
+    "airpods watch"
+    "ipad ipad";
+}
+
+.main-page-grid-item-container > :nth-child(1) {
+  grid-area: iphone;
+}
+
+.main-page-grid-item-container > :nth-child(2) {
+  grid-area: watch;
+}
+
+.main-page-grid-item-container > :nth-child(3) {
+  grid-area: airpods;
+}
+
+.main-page-grid-item-container > :nth-child(4) {
+  grid-area: ipad;
+}

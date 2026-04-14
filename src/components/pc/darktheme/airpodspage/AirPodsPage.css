@@ -1,0 +1,17 @@
+.airpods-page-dark {
+  width: 100%;
+  height: calc(250vh - 84px);
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  background-color: #1D1D1F;
+  color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  .airpods-page-dark {
+    height: auto;
+    padding: 12px;
+    gap: 1.5rem;
+  }
+}

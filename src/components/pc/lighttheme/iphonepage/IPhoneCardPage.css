@@ -1,0 +1,143 @@
+.iphone-page-card {
+  background-color: black;
+  width: 100%;
+  height: 88.5vh;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8%;
+  color: #ffffff;
+}
+
+.iphone-page-card-left {
+  display: flex;
+  flex-direction: column;
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+.iphone-page-card-right-title {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 0.95;
+  letter-spacing: -0.05rem;
+}
+
+.iphone-page-card-right-text {
+  white-space: pre-line;
+  font-size: 1.625rem;
+  font-weight: 500;
+  line-height: 0.95;
+  letter-spacing: -0.05rem;
+}
+
+.iphone-page-card-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.iphone-page-card-right-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.iphone-price {
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.iphone-page-text-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  gap: 2rem;
+}
+
+.iphone-page-card-right {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+@media (max-width: 768px) {
+  .iphone-page-card {
+    height: auto;
+    flex-direction: column;
+    padding: 16px;
+    width: 410px;
+    max-width: 100%;
+    gap: 16px;
+  }
+
+  .iphone-page-card-left {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+
+  .iphone-page-card-right {
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  .iphone-page-card-right-title {
+    font-size: 1.5rem;
+  }
+
+  .iphone-page-card-right-text {
+    font-size: 0.875rem;
+  }
+
+  .iphone-price {
+    font-size: 1.5rem;
+  }
+
+  .iphone-page-card-buttons {
+    flex-direction: column;
+  }
+
+  .iphone-page-text-info {
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .iphone-page-card {
+    height: auto;
+    padding: 24px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .iphone-page-card-left {
+    font-size: 3rem;
+  }
+
+  .iphone-page-card-right {
+    gap: 2rem;
+  }
+
+  .iphone-page-card-right-title {
+    font-size: 2rem;
+  }
+
+  .iphone-page-card-right-text {
+    font-size: 1.125rem;
+  }
+
+  .iphone-price {
+    font-size: 2rem;
+  }
+
+  .iphone-page-card-right-info {
+    align-items: flex-start;
+  }
+
+  .iphone-page-text-info {
+    align-items: flex-start;
+    text-align: left;
+  }
+}

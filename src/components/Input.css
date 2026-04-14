@@ -1,0 +1,34 @@
+.input-custom {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 830px;
+  height: 50px;
+  font-weight: 500;
+}
+
+.label-for-input {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 0.5rem;
+}
+
+.input-custom-dark {
+  border: none;
+  border-bottom: 2px solid #FFFFFF;
+  width: 830px;
+  height: 50px;
+  font-weight: 500;
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+.input-custom-dark::placeholder {
+  color: #FFFFFF;
+}
+
+.label-for-input-dark {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 0.5rem;
+  color: #FFFFFF;
+}

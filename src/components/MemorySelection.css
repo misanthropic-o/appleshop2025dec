@@ -1,0 +1,59 @@
+.memory-selectio {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.memory-seleciton-button {
+  background-color: #ffffff;
+  border: 4px solid #0071e3;
+  width: 143px;
+  height: 68px;
+  border-radius: 1.5rem;
+  color: #0071e3;
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.memory-selectio-dark {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.memory-seleciton-button-dark {
+  background-color: transparent;
+  border: 4px solid #0071e3;
+  width: 143px;
+  height: 68px;
+  border-radius: 1.5rem;
+  color: #0071e3;
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .memory-selectio {
+    gap: 0.25rem;
+  }
+
+  .memory-seleciton-button {
+    width: 80px;
+    height: 50px;
+    border: 3px solid #0071e3;
+    font-size: 1rem;
+    border-radius: 1rem;
+  }
+
+  .memory-selectio-dark {
+    gap: 0.25rem;
+  }
+
+  .memory-seleciton-button-dark {
+    width: 80px;
+    height: 50px;
+    border: 3px solid #0071e3;
+    font-size: 1rem;
+    border-radius: 1rem;
+  }
+}

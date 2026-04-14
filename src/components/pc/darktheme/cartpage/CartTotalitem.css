@@ -1,0 +1,7 @@
+.cart-total-item-dark {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: #FFFFFF;
+}

@@ -1,0 +1,5 @@
+.watch-page {
+  width: 100%;
+  height: calc(330vh - 84px);
+  background-color: white;
+}

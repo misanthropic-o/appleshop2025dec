@@ -1,0 +1,121 @@
+
+.item-description,
+.item-description-dark {
+  width: 1247px;
+  height: 348px;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0 2%;
+  border-radius: 1rem;
+  align-items: flex-start;
+}
+
+.item-description {
+  background-color: #f5f5f7;
+}
+
+.item-description-dark {
+  background-color: #353535;
+}
+
+.item-desc-content,
+.item-desc-content-dark {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  align-items: flex-start;
+  padding-top: 2%;
+  flex: 1 1 auto;
+}
+
+.item-desc-desc,
+.item-desc-desc-dark {
+  white-space: pre-wrap;
+  font-size: 1.485rem;
+  line-height: 0.95;
+  letter-spacing: -0.05rem;
+  font-weight: 500;
+}
+
+.item-desc-desc {
+  color: #000000;
+}
+.item-desc-desc-dark {
+  color: #ffffff;
+}
+
+.item-description-img,
+.item-description-img-dark {
+  width: auto;
+  height: auto;
+  max-width: 40%;
+  object-fit: contain;
+}
+
+.item-description-placeholder,
+.item-description-placeholder-dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .item-description,
+  .item-description-dark {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .item-desc-content,
+  .item-desc-content-dark {
+    width: 100%;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: flex-start;
+    padding-top: 0;
+  }
+
+  .item-desc-desc,
+  .item-desc-desc-dark {
+    font-size: clamp(0.95rem, 1.6vw, 1.1rem);
+    line-height: 1.2;
+    letter-spacing: 0;
+  }
+
+  .item-description-img,
+  .item-description-img-dark {
+    max-width: 35%;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .item-description,
+  .item-description-dark {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 16px;
+  }
+
+  .item-description-img,
+  .item-description-img-dark {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 12px 0;
+  }
+
+  .item-desc-desc,
+  .item-desc-desc-dark {
+    font-size: 0.95rem;
+    line-height: 1.3;
+  }
+
+  .item-description-placeholder,
+  .item-description-placeholder-dark {
+    gap: 1rem;
+    padding: 12px 16px;
+  }
+}

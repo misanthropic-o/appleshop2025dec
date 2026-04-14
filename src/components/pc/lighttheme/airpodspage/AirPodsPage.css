@@ -1,0 +1,8 @@
+.airpods-page {
+  width: 100%;
+  height: calc(250vh - 84px);
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  background-color: white;
+}

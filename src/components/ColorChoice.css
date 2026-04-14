@@ -1,0 +1,84 @@
+.color-choice-pop-up {
+  width: 527px;
+  height: 566px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  padding: 2% 2%;
+  gap: 2rem;
+  position: absolute;
+  z-index: 1000;
+}
+
+.color-choice-title {
+  font-size: 2.75rem;
+  font-weight: 600;
+}
+
+.color-choice-fuck {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.color-choice-pop-up-dark {
+  width: 527px;
+  height: 566px;
+  background-color: #353535;
+  border: 1px solid #FFFFFF;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  padding: 2% 2%;
+  gap: 2rem;
+  position: absolute;
+  z-index: 1000;
+}
+
+.color-choice-title-dark {
+  font-size: 2.75rem;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.color-choice-fuck-dark {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .color-choice-pop-up {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    padding: 16px;
+    gap: 1rem;
+  }
+
+  .color-choice-title {
+    font-size: 1.5rem;
+  }
+
+  .color-choice-fuck {
+    gap: 0.75rem;
+  }
+
+  .color-choice-pop-up-dark {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    padding: 16px;
+    gap: 1rem;
+  }
+
+  .color-choice-title-dark {
+    font-size: 1.5rem;
+  }
+
+  .color-choice-fuck-dark {
+    gap: 0.75rem;
+  }
+}

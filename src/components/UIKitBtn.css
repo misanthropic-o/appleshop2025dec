@@ -1,0 +1,37 @@
+.ui-kit-btn {
+  background-color: #0071e3;
+  color: white;
+  border: none;
+  border-radius: 1.25rem;
+  letter-spacing: 0.001rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.ui-kit-btn-dark {
+  background-color: #0071e3;
+  color: white;
+  border: none;
+  border-radius: 1.25rem;
+  letter-spacing: 0.001rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .ui-kit-btn,
+  .ui-kit-btn-dark {
+    width: 140px !important;
+    height: 50px !important;
+    font-size: 0.9rem !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .ui-kit-btn,
+  .ui-kit-btn-dark {
+    width: 160px !important;
+    height: 55px !important;
+    font-size: 1rem !important;
+  }
+}

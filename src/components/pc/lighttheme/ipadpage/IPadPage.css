@@ -1,0 +1,22 @@
+.ipad-page {
+  width: 100%;
+  height: calc(191vh - 84px);
+  padding: 0.5% 0.5%;
+  background-color: white;
+}
+
+.item-description-placeholder-ipad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 12px;
+}
+
+.description-title {
+  margin-right: auto;
+  padding: 0 18%;
+  font-size: 4rem;
+  font-weight: 600;
+}
